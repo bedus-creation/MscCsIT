@@ -1,5 +1,4 @@
-from Lab_01.Point import Point
-
+from Point import Point
 class Segment:
     def setPoints(self):
         self.p1 = Point().set2DPoint()

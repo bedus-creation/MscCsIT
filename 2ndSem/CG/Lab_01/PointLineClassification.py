@@ -1,5 +1,5 @@
-from Lab_01.Segment import Segment
-from Lab_01.Point import Point
+from Segment import Segment
+from Point import Point
 
 class PointLineClassification:
     def __init__(self):
