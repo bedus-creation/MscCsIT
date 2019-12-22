@@ -11,6 +11,7 @@ class PointLineClassification:
            print("Test point is start point.")
         elif (self.p2[0] == self.testPoint[0] & self.p2[1] == self.testPoint[1]):
             print("Test point is end point.")
+
         if (self.p1[1] > self.testPoint[1]):
             print("Test point is beyond line segment.")
         elif (self.p2[1] < self.testPoint[1]):
