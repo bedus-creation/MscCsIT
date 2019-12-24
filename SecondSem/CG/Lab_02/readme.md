@@ -7,5 +7,5 @@
 
 # Testing
 ```
-python -m pytest -m cg-lab02
+python -m pytest -m cg_lab02
 ```

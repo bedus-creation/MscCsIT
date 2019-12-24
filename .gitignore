@@ -3,3 +3,4 @@
 *.log
 *.gz
 *.vscode
+*/.pytest_cache/**
