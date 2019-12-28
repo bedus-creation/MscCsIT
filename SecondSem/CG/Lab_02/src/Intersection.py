@@ -6,3 +6,9 @@ class Intersection():
 
     def isIntersect(self):
         return (self.a1 * self.a2)<0
+
+    def isImproper(self):
+        pass
+
+    def isProper(self):
+        pass

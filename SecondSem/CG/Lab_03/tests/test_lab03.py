@@ -17,6 +17,6 @@ class TestLab03:
     def test_polygon_is_convex(self, points, expected):
         assert Polygon(points).isConvex() == expected
 
-    @pytest.mark.parametrize("points,expected", pointInclusionTestData)
-    def test_polygon__point_inclusion(self, points, expected):
-        assert Polygon(points).isConvex() == expected
+    # @pytest.mark.parametrize("points,expected", pointInclusionTestData)
+    # def test_polygon__point_inclusion(self, points, expected):
+    #     assert Polygon(points).isConvex() == expected

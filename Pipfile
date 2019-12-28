@@ -12,6 +12,7 @@ numpy = "*"
 jupyter = "*"
 matplotlib = "*"
 autopep8 = "*"
+scrapy = "*"
 
 [requires]
 python_version = "3.7"
