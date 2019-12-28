@@ -14,16 +14,23 @@ class TestLab02:
         ((2, 4), (4, 6), (6, 6), False)
     ]
     intersectionTestData = [
-        ((10, 20), (20, 20), (15, 20), (15, 15), True),
-        ((10, 20), (20, 20), (15, 30), (15, 35), False)
-    ]
-
-    properIntersectionTestData = [
-        ((10, 20), (20, 20), (15, 20), (15, 15), True)
+        ((10, 20), (20, 20), (15, 30), (15, 10), True),
+        ((10, 20), (20, 20), (15, 20), (15, 15), False),
+        ((10, 20), (20, 20), (15, 30), (15, 35), False),
+        ((10, 0), (20, 10), (10, 10), (10, 20), False)
     ]
 
     improperIntersectionTestData = [
-        ((10, 20), (20, 20), (8, 20), (30, 20), True)
+        ((10, 20), (20, 20), (15, 20), (15, 15), True),
+        ((10, 20), (20, 20), (15, 30), (15, 35), False), # Not even a intesection
+        ((10, 0), (20, 10), (10, 10), (10, 20), False), # parallel Line
+        ((0, 0), (20, 20), (10, 10), (0, 15), True),
+        ((0, 0), (0, 20), (0, 10), (20, 10), True),
+        ((0, 0), (20, 0), (10, 0), (10, 20), True),
+        ((20, 0), (0, 0), (10,0), (10, 20), True),
+        ((0, 20), (20, 0), (10,10), (0, 10), True),
+        ((10, 20), (20, 20), (15, 20), (15, 15), True),
+        ((10, 20), (20, 20), (15, 30), (15, 10), False),
     ]
 
     @pytest.mark.parametrize("p1,p2,p3,expected", collinearTestData)
@@ -33,10 +40,6 @@ class TestLab02:
     @pytest.mark.parametrize("p1,p2,tp1,tp2,expected", intersectionTestData)
     def test_line_segment_intersection(self, p1, p2, tp1, tp2, expected):
         assert Intersection(p1, p2, tp1, tp2).isIntersect() == expected
-
-    @pytest.mark.parametrize("p1,p2,tp1,tp2,expected", properIntersectionTestData)
-    def test_line_segment_proper_intersection(self, p1, p2, tp1, tp2, expected):
-        assert Intersection(p1, p2, tp1, tp2).isProper() == expected
 
     @pytest.mark.parametrize("p1,p2,tp1,tp2,expected", improperIntersectionTestData)
     def test_line_segment_improper_intersection(self, p1, p2, tp1, tp2, expected):
