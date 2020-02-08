@@ -1,0 +1,246 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifdefined
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+COMPLETE
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+else
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{gobble}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename /home/ellite/Documents/College/Seminar Report/resources/logo.jpg
+	scale 50
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+ Tribhuvan University 
+\begin_inset Newline linebreak
+\end_inset
+
+Institute of Science and Technology 
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 2cm
+\end_inset
+
+ 
+\series bold
+ Seminar Report 
+\begin_inset Newline linebreak
+\end_inset
+
+On 
+\begin_inset Newline linebreak
+\end_inset
+
+Implementing Logic Gates 
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 2cm
+\end_inset
+
+ 
+\series bold
+ Submitted to 
+\begin_inset Newline linebreak
+\end_inset
+
+Central Department of Computer Science and Information Technology 
+\begin_inset Newline linebreak
+\end_inset
+
+Tribhuvan University, Kirtipur Kathmandu, Nepal 
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace 2cm
+\end_inset
+
+ 
+\series bold
+ Submitted by 
+\begin_inset Newline linebreak
+\end_inset
+
+Roll No.: 14/075 
+\begin_inset Newline linebreak
+\end_inset
+
+Bedram Tamang 
+\begin_inset Newline linebreak
+\end_inset
+
+In partial fulfillment of the requirement for Master's Degree in Computer
+ Science and Information Technology (M.Sc.
+ CSIT), 1st Semester 
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+fi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

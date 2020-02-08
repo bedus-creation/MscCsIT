@@ -1,0 +1,9 @@
+version=0.6.0
+typesetter=pdflatex
+steps=texpdf
+root=/home/ellite/Documents/College/Seminar Report/Seminar Report.tex
+
+file=/home/ellite/Documents/College/Seminar Report/section/cover.tex
+file=/home/ellite/Documents/College/Seminar Report/section/abstract.tex
+file=/home/ellite/Documents/College/Seminar Report/section/introduction.tex
+file=/home/ellite/Documents/College/Seminar Report/section/supervisor-ecommendation.tex

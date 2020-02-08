@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Single layer perceptron}}{7}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces OR gate perceptron unit}}{8}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Graphical Representation of Gradient Descent}}{10}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Multilayer perceptron Network}}{11}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces NOT gate implementation with single perceptron}}{17}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Error during NOT gate convergence}}{17}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces AND gate implementation with single perceptron}}{19}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Error during AND gate convergence}}{19}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Error during XOR gate convergence}}{23}% 
+\addvspace {10\p@ }
