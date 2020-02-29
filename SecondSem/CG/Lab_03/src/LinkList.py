@@ -1,5 +1,6 @@
 from SecondSem.CG.Lab_03.src.Node import Node
 
+
 class LinkList:
     def __init__(self):
         self.head = None
@@ -25,6 +26,6 @@ class LinkList:
     def printList(self):
         last = self.head
         while(last.next is not self.head):
-            print(last.data.x, last.data.y)
+            print(last.data)
             last = last.next
-        print(last.data.x, last.data.y)
+        print(last.data)

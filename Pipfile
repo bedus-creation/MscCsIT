@@ -16,6 +16,7 @@ scrapy = "*"
 pandas = "*"
 pandoc = "*"
 nbconvert = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.7"
